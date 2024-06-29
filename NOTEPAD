@@ -1,3 +1,5 @@
 USED FLOWBITE EXTERNAL LIBRARY we did as div in header.jsx because two anchor
 tags not allowed as navbar.link and link both are anchor tag so error was there
-in console
+in console in user route or any routes every time order should be req,res and
+then we can do res.json , it cant be res,req tab error deraha not a function
+bolke
