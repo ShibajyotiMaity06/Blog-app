@@ -1,0 +1,3 @@
+USED FLOWBITE EXTERNAL LIBRARY we did as div in header.jsx because two anchor
+tags not allowed as navbar.link and link both are anchor tag so error was there
+in console
