@@ -49,7 +49,7 @@ export const signin = async (req,res,next) => {
     }
     const token = jwt.sign(
       { id: validUser._id, isAdmin: validUser.isAdmin },
-      `${process.env.JWT_SECRET_KEY}`
+      `${process.env.JWT_SECRET_KEY}` // there was error when doing it normally so saw stackoverflow
     );
 
     const { password: pass, ...rest } = validUser._doc;
